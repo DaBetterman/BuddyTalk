@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a ,p {
+    font-family: "Noto Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+
+/*******************
+        NAVBAR
+********************/
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    text-indent: 1.5rem;
+    margin-top: 1.2rem;
+    justify-content: space-between;
+    width: 100vw;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    text-indent: 1.5rem;
+}
+
+#title {
+    float: left;
+}
+
+#tName {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+/*******************
+        BODY
+********************/
+
+body {
+    background: linear-gradient(to right,rgb(231, 186, 231), rgb(185, 164, 164));
+}
+
+
+/*******************
+        HERO
+********************/
+
+.hero {
+    width: 99vw;
+    height: 100vh;
+}
+hr {
+    border: none;
+    height: 0.05rem;
+    background-color: rgb(177, 94, 255);
+    /* margin: 2rem 0; */
+}
+
+
+
+/*******************
+        FOOTER
+********************/
+
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: 24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: black
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    /* background-color: #e91e63; */
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+    /* color: #bbbbbb; */
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************
+        SAMPLE
+********************/
