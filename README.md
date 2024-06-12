@@ -1,7 +1,5 @@
 # **BuddyTalk**
 
-![BuddyTalk Screenshot](https://your-image-link) <!-- Replace with actual image link -->
-
 ---
 
 ## **Introduction**
